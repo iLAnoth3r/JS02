@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 2px solid black;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 60vh;
+}
+
+.caja img {
+  width: 10vw;
+  height: auto;
+}
